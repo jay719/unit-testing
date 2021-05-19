@@ -1,5 +1,5 @@
 function sum(firstNumber, secondNumber){
-    return firstNumber + secondNumber
+    return (+firstNumber + +secondNumber).toFixed(2)
 }
 
 function subtract (firstNum, secondNum){
