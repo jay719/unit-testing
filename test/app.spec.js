@@ -15,5 +15,5 @@ it("subtracts 2 from 3", () => {
 })
 
 it("adds .2 and .3 ", () => {
-    assert.equal(sum(.2,.3), .2)
+    assert.equal(sum(.2,.3), .5)
 })
