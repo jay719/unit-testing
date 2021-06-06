@@ -1,4 +1,4 @@
-const { sum, subtract } = require("../app") //desstructuring
+const { sum, subtract, incrementAge } = require("../app") //desstructuring
 const assert = require("assert") //built in
 const { strictEqual } = require("assert")
 
@@ -15,5 +15,5 @@ it("subtracts 2 from 3", () => {
 })
 
 it("adds .2 and .3 ", () => {
-    assert.equal(sum(.2,.3), .5)
+    assert.equal(sum(.2,.3), .2)
 })
